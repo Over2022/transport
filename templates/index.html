@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block body %}Главная страница
+
+<div>
+    <form method="post">
+    <input type="date" id="start-date" name="start-date">
+    <input type="date" id="end-date" name="end-date"><br>
+
+        <input type="text" id="price" name="price" class="form-control" placeholder="Введите цену">
+        <button type="submit">Добавить</button>
+</form>
+
+</div>
+{% endblock %}
