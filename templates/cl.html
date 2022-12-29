@@ -1,8 +1,0 @@
-{% extends 'base.html' %}
-
-{% block title %}Главная страница{% endblock %}
-{%for q in res.keys() %}
-  <option>{{res[q]['name']}}</option>
-    {% endfor %}
-<select> input type="text" name="start_city" id="start_city" class="form-control" placeholder="Введите город"></select>
-{% block body %}Главная страница{% endblock %}
